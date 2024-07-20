@@ -1,0 +1,50 @@
+@media screen and (max-width: 600px) {
+    .content {
+        width: auto;
+        margin: 2%;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .title {
+        font-size: 0.8rem;
+    }
+
+    .spliter span {
+        font-size: 1.2rem;
+    }
+
+    .contactsList {
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .contactsItem {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    .nomobile {
+        display: none;
+    }
+
+    .mainInfo {
+        align-items: center;
+    }
+
+    #noprint {
+        display: flex;
+    }
+
+
+}
+
+@media print {
+    .noprint {
+        display: none;
+    }
+}
