@@ -1,0 +1,259 @@
+* {
+    font-family: "Nunito";
+    color: #2C3845;
+}
+
+img {
+    pointer-events: none;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #FBFDFC;
+}
+
+.header {
+    height: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1000px;
+    margin: 20px 10% 0;
+    gap: 15px;
+}
+
+.media_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media_link img {
+    max-height: 60%;
+}
+
+.downloadButton {
+    user-select: none;
+    cursor: pointer;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    color: #3933DF;
+    border: 1px solid transparent;
+    animation-name: blinkButton;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.downloadButton:hover {
+    border: 1px solid #3933DF;
+    animation-name: none;
+    transition: 1s;
+}
+
+@keyframes blinkButton {
+    0% {
+        border: 1px solid transparent;
+    }
+    50% {
+        border: 1px solid #3933DF;
+    }
+    100% {
+        border: 1px solid transparent;
+    }
+}
+
+.line {
+    width: 100%;
+    border-bottom: 1px solid #CECECE;
+}
+
+path {
+    fill: #3933DF;
+}
+
+.content {
+    width: 21cm;
+    min-height: 29.7cm;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 10px;
+}
+
+.mainInfo {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.photo {
+    max-width: 135px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    pointer-events: auto;
+    user-select: auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 5px;
+    justify-content: center;
+}
+
+.names {
+    font-size: 1.5rem;
+    font-family: "Nunito Bold";
+}
+
+#noprint {
+    display: none;
+}
+
+.position {
+    font-family: "Nunito Bold";
+    font-size: 16px;
+    color: #3933DF;
+}
+
+.aboutMe {
+    font-size: 12px;
+}
+
+.contactsList {
+    display: flex;
+    column-gap: 40px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.contactsItem {
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+
+.contactsItem img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.contactsItem div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+}
+
+.contactsTitle {
+    color: #3933DF;
+    font-family: "Nunito";
+}
+
+.contactsLink {
+    color: #2C3845;
+    transition: 300ms;
+}
+
+.spliter {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.spliter span {
+    font-family: "Nunito Bold";
+    font-size: 1.5rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    font-size: 0.8rem;
+}
+
+.skillsItem {
+    display: flex;
+    column-gap: 10px;
+    color: #ffffff;
+    align-items: center;
+}
+
+.skillsItem img {
+    height: 1rem;
+    width: 1rem;
+}
+
+.subItems {
+    padding: 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    color: #ffffff;
+}
+
+.subItemsElement {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.subItemsElement img {
+    height: 0.8rem;
+    width: 0.8rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    font-family: Nunito;
+}
+
+.customItem {
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+
+.customItem img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.customItem div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+}
+
+.description {
+    font-size: 0.8rem;
+}
+
+.title {
+    font-size: 16px;
+    font-family: "Nunito Bold";
+}
+
+.customItemYears {
+    color: #3933DF;
+    margin-right: 15px;
+}
+
+.tag {
+    color: #3933DF;
+}

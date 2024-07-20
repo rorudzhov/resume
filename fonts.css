@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Lucida Console";
+    src: url("/fonts/lucidaconsole.ttf");
+}
+
+@font-face {
+    font-family: "Nunito";
+    src: url("/fonts/nunito_regular.ttf");
+}
+
+@font-face {
+    font-family: "Nunito Bold";
+    src: url("/fonts/nunito_bold.ttf");
+}
