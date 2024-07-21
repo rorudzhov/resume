@@ -20,8 +20,6 @@ body {
     height: 40px;
     display: flex;
     flex-direction: row-reverse;
-    max-width: 1000px;
-    margin: 20px 10% 0;
     gap: 15px;
 }
 
